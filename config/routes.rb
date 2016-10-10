@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  get 'users/new'
-
   root 'static_pages#home'
 
   get '/home', to: 'static_pages#home', as: 'home'
@@ -12,5 +10,9 @@ Rails.application.routes.draw do
   get '/contact', to: 'static_pages#contact', as: 'contact'
 
   get '/signup', to: 'users#new', as: 'signup'
+
+  resources :users
+  get  '/signup',  to: 'users#new'
+  post '/signup',  to: 'users#create'
 
 end
