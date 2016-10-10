@@ -12,7 +12,7 @@ class UserSignupTest < ActionDispatch::IntegrationTest
     assert_template 'users/new'
     # assert_select 'div#<CSS id for error explanation>'
     # assert_select 'div.<CSS class for field with error>'
-    follow_redirect!
-    assert_template 'users/show'
+    # follow_redirect!
+    # assert_template 'users/show'
   end
 end
