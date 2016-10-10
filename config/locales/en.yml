@@ -21,3 +21,13 @@
 
 en:
   hello: "Hello world"
+  login: "Log in"
+  email: "email"
+  pass: "password"
+  new_user: "New user"
+  sign_up_now: "Sign up now!"
+  login_fails: "Invalid email or password!"
+  account: "Account"
+  profile: "Profile"
+  settings: "Settings"
+  logout: "Log out"
