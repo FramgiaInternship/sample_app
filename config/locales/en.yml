@@ -32,3 +32,6 @@ en:
   settings: "Settings"
   logout: "Log out"
   remember_me: "Remember me on this computer"
+  edit_page_title: "Edit user"
+  password_confirmation: "password confirmation"
+  name: "name"
