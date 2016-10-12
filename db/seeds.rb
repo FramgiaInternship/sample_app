@@ -3,7 +3,9 @@ User.create!(
   email: "tran.dai.son@framgia.com",
   password: "123456",
   password_confirmation: "123456",
-  admin: true
+  admin: true,
+  activated: true,
+  activated_at: Time.zone.now
 )
 
 User.create!(
@@ -11,7 +13,9 @@ User.create!(
   email: "sontd.it@gmail.com",
   password: "123456",
   password_confirmation: "123456",
-  admin: true
+  admin: true,
+  activated: true,
+  activated_at: Time.zone.now
 )
 
 100.times do |n|
@@ -22,6 +26,8 @@ User.create!(
     name: name,
     email: email,
     password: password,
-    password_confirmation: password
+    password_confirmation: password,
+    activated: true,
+    activated_at: Time.zone.now
   )
 end
