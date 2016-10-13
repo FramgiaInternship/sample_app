@@ -35,3 +35,4 @@ en:
   edit_page_title: "Edit user"
   password_confirmation: "password confirmation"
   name: "name"
+  forgot_pass: "Forgot password?"
